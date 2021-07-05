@@ -1,0 +1,45 @@
+(i) matrix = [[ 'Arun',  25, 90, 74],  
+['Sachin', 410, 87.50, 130],  
+[56, 'Abhinay', 253, 471]]  
+  
+print("The matrix is: ", matrix)  
+
+
+(ii) mat1 = [[10, 13, 44],   
+      [11, 2, 3],   
+      [5, 3, 1]]  
+  
+mat2 = [[7, 16, -6],  
+           [9, 20, -4],   
+           [-1, 3 , 27]]  
+  
+mat3  = [[0,0,0],  
+       [0,0,0],  
+       [0,0,0]]  
+matrix_length = len(mat1)  
+   
+for i in range(len(mat1)):  
+    for k in range(len(mat2)):  
+        mat3[i][k] = mat1[i][k] + mat2[i][k]  
+    
+print("The sum of Matrix mat1 and mat2 = ", mat3) 
+
+
+(iii) mat1 = [[10, 13, 44],  
+      [11, 2, 3],  
+      [5, 3, 1]]  
+  
+mat2 = [[7, 16, -6],  
+           [9, 20, -4],  
+           [-1, 3 , 27]]  
+  
+mat3  = [[0,0,0],  
+       [0,0,0],  
+       [0,0,0]]  
+matrix_length = len(mat1)  
+   
+for i in range(len(mat1)):  
+    for k in range(len(mat2)):  
+        mat3[i][k] = mat1[i][k]  * mat2[i][k]  
+   
+print("The sum of Matrix mat1 and mat2 = ", mat3)  
